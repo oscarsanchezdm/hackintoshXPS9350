@@ -34,7 +34,7 @@ Tested on **Dell XPS 9350**
 - DRM (broken in IGPU-only laptops)
 
 ### Current issues
-- Power management on WiFI card DW1820A (will cause an extra +0.7/+1.2W power consumption)
+- Power management on WiFI card DW1820A (will cause an extra 0.7-1.2W power consumption)
 - OpenCanopy menu won't launch pressing ALT key (if ShowPicker is enabled, it will work)
 - Audio may stop working randomly. When this happens, use the microphone in any app and the speaker will work again
 - macOS will not auto-hibernate on low battery. You should shutdown the computer manually.
@@ -59,5 +59,4 @@ To get OpenCanopy and Boot Chime working, download the Resources folder from [he
 - [corpnewt](https://github.com/corpnewt/) for [CPUFriendFriend](https://github.com/corpnewt/CPUFriendFriend)
 - [maz-1](https://github.com/maz-1) for [ComboJack](https://github.com/hackintosh-stuff/ComboJack)
 - [syscl](https;//github.com/syscl) for [XPS 9350 macos guide](https://github.com/syscl/XPS9350-macOS)
-- [hieplpvip](https://github.com/hieplpvip/) for  [SidecarEnabler](https://github.com/hieplpvip/SidecarEnabler)
 - Apple for macOS
