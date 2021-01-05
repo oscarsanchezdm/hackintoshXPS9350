@@ -9,7 +9,7 @@ Tested on **Dell XPS 9350**
   - i7-6560U / Intel Iris HD 540
   - 8GB RAM
   - Sabrent M.2 Drive (replaced Samsung PM951 due to lack of power management)
-  - DW1820A wireless card
+  - DW1820A && DW1560 wireless card
   - macOS Big Sur 11.1
 
 ### What does work
