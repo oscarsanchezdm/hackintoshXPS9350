@@ -2,7 +2,7 @@
 OpenCore EFI folder for Dell XPS 9350 laptop.
 
 **Current bootloader version**
-OpenCore 0.6.4 Release
+OpenCore 0.7.2 Release
 
 Tested on **Dell XPS 9350**
   - 3K touch display
