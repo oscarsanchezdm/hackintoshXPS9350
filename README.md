@@ -10,7 +10,7 @@ Tested on **Dell XPS 9350**
   - 8GB RAM
   - Sabrent M.2 Drive (replaced Samsung PM951 due to lack of power management)
   - DW1820A && DW1560 wireless card
-  - macOS Big Sur 11.1
+  - macOS Catalina, Big Sur and Monterey DB6.
 
 ### What does work
 - CPU/NVME Power Management
@@ -26,18 +26,18 @@ Tested on **Dell XPS 9350**
 - IGPU with Hardware Acceleration
 - SideCar
 - Boot Chime
+- Camera
 
 ### What does not work
 - **SD card reader** (disable it on BIOS to save energy)
 - **USB-C hot-plug** Unplugging an USB-C device when macOS is running may cause Kernel Panics when sleeping
-- **Camera** does not work in Big Sur. The image will stop working in ~30 seconds, then it will turn black until the next wake. It used to work in macOS Catalina.
-- DRM (broken in IGPU-only laptops)
+- **DRM** (broken in IGPU-only laptops)
 
 ### Current issues
 - Power management on WiFI card DW1820A (will cause an extra 0.7-1.2W power consumption)
-- OpenCanopy menu won't launch pressing ALT key (if ShowPicker is enabled, it will work)
+- OpenCanopy menu won't launch pressing ALT key (if ShowPicker is enabled, it will work) -> Press "Escape" key.
 - Audio may stop working randomly. When this happens, use the microphone in any app and the speaker will work again
-- macOS will not auto-hibernate on low battery. You should shutdown the computer manually.
+- macOS will not auto-hibernate from sleep. Setting hibernatemode to 25 will hibernate the computer.
 
 ### Preparation
 **Format the disk using 4K sector size**
